@@ -20,4 +20,6 @@
 ## core.inflictpain
 > core.inflictpain(number, playercharacter) example: core.inflictpain(math.random(5, 10), script.Parent) add certain value to pain string value in effect folder
 
+## core.applydisease
+> core.applydisease(char, disease) example: core.applydisease(script.Parent, "Flu") 
 
