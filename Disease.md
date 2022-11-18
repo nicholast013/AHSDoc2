@@ -8,6 +8,18 @@
 
 > local dissys = require(game.ReplicatedStorage:WaitForChild("LimbModules"):WaitForChild("DiseaseSystem"))
 
+## Apply disease to people
+
+> dissys.applydisease(char, script.Parent.Name)
+
+> apply disease to certain people
+
+## Apply vaccine to people
+
+> dissys.applyvaccine(char, script.Parent.Name)
+
+> apply vaccine to certain people
+
 ## Adding Cough to your virus
 
 > local cough = dissys.Cough(script.Parent) 
