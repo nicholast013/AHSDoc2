@@ -30,7 +30,7 @@
 while task.wait() do
         local char = dissys.Cough(char)
         if char then
-            script:Clone(char)
+            dissys.applydisease(char, script.Parent.Name)
         end
         wait(2)
     end
